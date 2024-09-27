@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import "./page.module.css"
+import Navbar from "@/components/navbar/navbar";
 
 interface HomeProps {
   
@@ -8,7 +9,7 @@ interface HomeProps {
 const Home: FunctionComponent<HomeProps> = () => {
   return ( 
     <div className="main-container">
-      hello
+    <Navbar/>
     </div>
     );
 }

@@ -8,18 +8,14 @@
   font-family: "Preahvihear", sans-serif;
   font-style: normal;
 }
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root{
+  --primary-color: #1A0B2E;
+  --background-color:#11071f;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.custom-theme{
+  width: 1060px;
+  margin: 0 auto;
 }
-
 html,
 body {
   max-width: 100vw;
@@ -28,7 +24,7 @@ body {
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: var(--background-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,11 +35,7 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
+
 @font-face {
   font-family: Preahvihear;
   src: url("/src/app/fonts/Preahvihear-Regular.ttf") format("ttf");
