@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import Link from "next/link"; 
-import "./navbar.css";
+import "./style.css";
 
 interface NavbarProps {}
 

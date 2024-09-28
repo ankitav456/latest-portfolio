@@ -1,0 +1,57 @@
+
+  
+  /* Home Section Styling */
+  .home-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .avatar-section {
+    margin-bottom: 30px;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  h1 span {
+    color: #9b59b6;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #ddd;
+    margin-top: 10px;
+  }
+  
+  .main-content h2 {
+    font-size: 36px;
+  }
+  
+  .highlight {
+    color: #9b59b6;
+  }
+  
+  .job-details span {
+    color: #f39c12;
+  }
+  
+  .about {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #aaa;
+  }
+  
