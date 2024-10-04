@@ -11,4 +11,91 @@
     padding: 20px;
   }
   
+ .home-avatar-section{
+  display: flex;
+  align-items: center;
+
+ }
+
+
  
+
+.home-main-section {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.home-avatar-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.home-content-section {
+  flex: 2;
+  padding-left: 40px;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #d1d1e0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1rem;
+  color: #b3b3cc;
+}
+
+.main-content h2 {
+  font-size: 2rem;
+  margin: 15px 0;
+}
+
+.highlight {
+  color: #f39c12;
+}
+
+.job-details {
+  font-size: 1.1rem;
+  color: #b2bec3;
+}
+
+.about {
+  font-size: 1rem;
+  color: #dfe6e9;
+  margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .home-main-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-content-section {
+    padding-left: 0;
+  }
+
+  .avatar {
+    width: 200px;
+    height: 200px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
